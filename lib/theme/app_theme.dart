@@ -1,30 +1,30 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // ── Brand Colors (from logo navy) ──
+  //  Brand Colors 
   static const Color primary = Color(0xFF0F2A4A);       // Deep navy blue
   static const Color primaryLight = Color(0xFF1B3E6B);   // Lighter navy
   static const Color accent = Color(0xFF3B82F6);         // Vibrant blue accent
   static const Color accentLight = Color(0xFFDBEAFE);    // Pale blue tint
   
-  // ── Neutrals ──
+  //  Neutrals 
   static const Color background = Color(0xFFF8FAFC);
   static const Color surface = Colors.white;
   static const Color cardColor = Colors.white;
   static const Color divider = Color(0xFFE2E8F0);
   
-  // ── Text ──
+  //  Text 
   static const Color textPrimary = Color(0xFF0F172A);
   static const Color textSecondary = Color(0xFF64748B);
   static const Color textMuted = Color(0xFF94A3B8);
   
-  // ── Status ──
+  //  Status 
   static const Color success = Color(0xFF10B981);
   static const Color warning = Color(0xFFF59E0B);
   static const Color error = Color(0xFFEF4444);
   static const Color star = Color(0xFFF59E0B);
 
-  // ── Shadows ──
+  //  Shadows 
   static List<BoxShadow> get cardShadow => [
     BoxShadow(color: Colors.black.withOpacity(0.04), blurRadius: 12, offset: const Offset(0, 4)),
   ];
@@ -33,7 +33,7 @@ class AppTheme {
     BoxShadow(color: primary.withOpacity(0.08), blurRadius: 24, offset: const Offset(0, 8)),
   ];
 
-  // ── Gradients ──
+  //  Gradients 
   static const LinearGradient primaryGradient = LinearGradient(
     colors: [Color(0xFF0F2A4A), Color(0xFF1B3E6B)],
     begin: Alignment.topLeft,
@@ -46,7 +46,7 @@ class AppTheme {
     end: Alignment.bottomRight,
   );
 
-  // ── Border Radius ──
+  //  Border Radius 
   static const double radiusSm = 8;
   static const double radiusMd = 12;
   static const double radiusLg = 16;
